@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.pin_btn {
+    @apply bg-gcash-blue-dark rounded-full h-12 w-12 text-center text-xl font-bold text-white;
+}
+.ms-200 {
+    --animate-duration: 200ms;
+}
+
+.ms-300 {
+    --animate-duration: 300ms;
+}
+
+.ms-400 {
+    --animate-duration: 400ms;
+}
+
+.ms-500 {
+    --animate-duration: 500ms;
+}
+
+.ms-600 {
+    --animate-duration: 600ms
+}
+
+.ms-700 {
+    --animate-duration: 700ms
+}
+
+.ms-800 {
+    --animate-duration: 800ms
+}
+
+.ms-900 {
+    --animate-duration: 900ms
+}
+
+.ms-slow {
+    --animate-duration: 2000ms
+}
