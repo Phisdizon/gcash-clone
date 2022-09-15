@@ -3,7 +3,7 @@ import { MdArrowBack } from 'react-icons/md'
 const input = Array.from({ length: 6 })
 export default function Auth() {
     return (
-        <div className="animate__animated animate__fadeInRight  ms-300 w-screen h-screen bg-white p-3">
+        <div className="w-screen h-screen bg-white p-3">
             <div className="flex flex-col">
                 <div className="flex gap-5 items-center px-3 py-2.5">
                     <Link passHref href={"/"}>
