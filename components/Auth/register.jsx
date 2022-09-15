@@ -23,7 +23,7 @@ export default function Register() {
 
                 <div className="mt-16 flex flex-col gap-4">
                     <p className="text-center text-sm text-white">
-                        By tapping next, we'll collect your mobile number's network information to be able to send you a One-Time Password (OTP).
+                        {" By tapping next, we'll collect your mobile number's network information to be able to send you a One-Time Password (OTP)."}
                     </p>
                     <Link href={'/auth/otp'} passHref>
                         <a
