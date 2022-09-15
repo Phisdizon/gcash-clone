@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  basePath: 'gcash-clone'
+  basePath: '/gcash-clone'
 }
 
 module.exports = nextConfig
